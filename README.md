@@ -4,4 +4,4 @@
 ------------
 
 
-- Proyecto en el que modularizo los componentes para hacerlos reutilizables, utilizando PUG y SASS ademas se incluir metodologias como BEM
+- Proyecto en el que modularizo los componentes para hacerlos reutilizables, utilizando PUG y SASS ademas de incluir la metodologia BEM

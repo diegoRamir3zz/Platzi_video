@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recreando inicio de sesión de platzi video con pug">
+    <link rel="stylesheet" href="../sass/main.css">
+    <title>Platzi Video</title>
+  </head>
+  <body>
+    <header class="header"> <img class="header__img" src="../assets/logo-platzi.png" alt="Logo de Platzi">
+      <div class="header-profile">
+        <div class="header-profile--container"><img src="https://img.icons8.com/ios-filled/32/ffffff/user.png" alt="Logo de Usuario">
+          <p>Perfil</p>
+        </div>
+        <ul>
+          <li><a href="#">Cuenta</a></li>
+          <li><a href="#">Cerrar Sesión</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="buscador"> 
+      <div class="buscador-container">
+        <h2 class="buscador-container__title">¿Qué quieres ver hoy?</h2>
+        <input class="buscador-container__input" type="text" placeholder="Buscar...">
+      </div>
+    </section>
+    <h2 class="title__carrousel">Tus peliculas favoritas</h2>
+    <section class="carrousel">
+      <div class="carrousel__container"> 
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/8680266/pexels-photo-8680266.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/3484061/pexels-photo-3484061.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/2923595/pexels-photo-2923595.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/5219233/pexels-photo-5219233.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/4636525/pexels-photo-4636525.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+      </div>
+    </section>
+    <h2 class="title__carrousel">Recomendados para ti</h2>
+    <section class="carrousel">
+      <div class="carrousel__container"> 
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/8680266/pexels-photo-8680266.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/3484061/pexels-photo-3484061.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/2923595/pexels-photo-2923595.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/5219233/pexels-photo-5219233.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/4636525/pexels-photo-4636525.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+      </div>
+    </section>
+    <h2 class="title__carrousel">Originales de platzi Video</h2>
+    <section class="carrousel">
+      <div class="carrousel__container"> 
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/8680266/pexels-photo-8680266.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/3484061/pexels-photo-3484061.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/2923595/pexels-photo-2923595.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/5219233/pexels-photo-5219233.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/4636525/pexels-photo-4636525.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+            <div class="carrousel-item"><img class="carrousel-item__img" src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260" alt="undefined">
+              <div class="carrousel-item__details">
+                <div><img src="https://img.icons8.com/small/16/4a90e2/play.png" alt="logo de Play"><img src="https://img.icons8.com/small/16/4a90e2/plus-math.png" alt="logo de Más"></div>
+                <p class="carrousel-item__details--title">Título descriptivo</p>
+                <p class="carrousel-item__details--subtitle">2019 16+  114 Minutos</p>
+              </div>
+            </div>
+      </div>
+    </section>
+    <footer class="footer"><a href="#">Términos de uso</a><a href="#">Declaracióm de privacidad</a><a href="#">Centro de ayuda</a></footer>
+    <script src="../js/main.js"> </script>
+  </body>
+</html>

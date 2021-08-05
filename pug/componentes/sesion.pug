@@ -1,0 +1,33 @@
+section.login
+        section.login__container
+            if(inicioSesion)
+                h2 Iniciar Sesión
+                form.login__container--form
+                    +inputSesion("text", "Correo")
+                    +inputSesion("password", "Contraseña")
+                    +button("Iniciar Sesión")
+                    .login__container--remember-me
+                        label(for="box1")
+                            input(type="checkbox" id="box1")
+                            span Recuerdame 
+                        a(href="") Olvidé mi contraseña
+            else 
+                h2 Crear Cuenta
+                form.login__container--form
+                    +inputSesion("text", "Correo")
+                    +inputSesion("password", "Contraseña")
+                    +inputSesion("password", "Confirmar contraseña")
+                    +button("Registrar")
+            section.login-container__social-media
+                div
+                    img(src="https://img.icons8.com/ios-filled/32/ffffff/google-logo.png")
+                    span Inicia Sesión con Google 
+                div
+                    img(src="https://img.icons8.com/small/32/ffffff/twitter.png")
+                    span Inicia Sesión con Twitter
+            if(inicioSesion)
+                p.login__container--register No tienes ninguna cuenta 
+                    a(href="")  Regístrate 
+            else 
+                p.login__container--register ¿Ya tienes una cuenta? 
+                    a(href="")  Ingresar 

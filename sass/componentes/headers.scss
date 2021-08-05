@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__img {
+        width: 200px;
+        margin-left: 20px;
+    }
+    &-profile{
+        position: relative;
+        &--container {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            p {
+                margin: 0 20px 0 10px;
+                font-size: 1.6rem;
+                color: $colorClaro;
+            }
+            }
+        ul {
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            position: absolute;
+            right: 20px;
+            list-style: none;
+            display: none;
+            li{
+                font-size: 1.5rem;
+                margin-top: 13px;
+                a {
+                    text-decoration: none;
+                    color: $colorClaro;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &-profile:hover ul, ul:hover {
+        display: block;
+    }
+}

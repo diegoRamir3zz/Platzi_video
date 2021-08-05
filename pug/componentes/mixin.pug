@@ -1,0 +1,16 @@
+mixin inputSesion($tipo, $holder)
+   input.input(type=""+$tipo placeholder=""+$holder)
+
+mixin button($tipeButton)
+    button.button #{$tipeButton}
+
+mixin itemCarrousel($imagen, $descriptionimg)
+  .carrousel-item
+    img.carrousel-item__img(src=""+$imagen, alt=""+descriptionimg)
+    .carrousel-item__details
+      div
+        img(src="https://img.icons8.com/small/16/4a90e2/play.png", alt="logo de Play")
+        img(src="https://img.icons8.com/small/16/4a90e2/plus-math.png", alt="logo de Más")
+      p.carrousel-item__details--title Título descriptivo
+      p.carrousel-item__details--subtitle 2019 16+  114 Minutos
+  

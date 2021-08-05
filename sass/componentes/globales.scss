@@ -1,0 +1,54 @@
+$colorPrimario: #21c08b;
+$colorSecundario: #ab00ff;
+$colorClaro: #fff;
+
+$fuente1: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: $fuente1;
+}
+body {
+    background: linear-gradient($colorPrimario, $colorSecundario);
+    .title__carrousel {
+        font-size: 1.5rem;
+        color: $colorClaro;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+}
+.input {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    font-size: 1.6rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid $colorClaro;
+    color: $colorClaro;
+}
+::placeholder {
+    color: $colorClaro;
+    font-family: $fuente1;
+}
+.button {
+    width: 100%;
+    height: 50px;
+    max-width: 300px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255,0.15);
+    color: $colorClaro;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}

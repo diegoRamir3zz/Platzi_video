@@ -1,0 +1,10 @@
+header.header 
+    img.header__img(src="../assets/logo-platzi.png" alt="Logo de Platzi")
+    if(usuario)
+        .header-profile
+            .header-profile--container
+                img(src="https://img.icons8.com/ios-filled/32/ffffff/user.png" alt="Logo de Usuario")
+                p Perfil
+            ul
+                li: a(href="#") Cuenta
+                li: a(href="#") Cerrar Sesión
